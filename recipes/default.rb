@@ -1,3 +1,3 @@
-package "curl-devel" do
+package "zsh" do
   action :install
 end
