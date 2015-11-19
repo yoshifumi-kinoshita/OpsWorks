@@ -4,8 +4,5 @@ template "/etc/httpd/conf.d/mysite.conf" do
   group "root"
   mode 0644
   action :create
-  variables({
-    :hostname => `/bin/hostname`.chomp
-  })
 end
 
